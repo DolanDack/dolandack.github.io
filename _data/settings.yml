@@ -14,9 +14,13 @@ menu__settings:
       url: '/'
     - title: 'About'
       url: '/about/'
-    - title: 'Work'
+    - title: 'Projects'
       url: '/work/'
-    - title: 'Writing'
+    - title: 'Research'
+      url: '/blog/'
+    - title: 'Posts'
+      url: '/blog/'
+    - title: 'Podcast'
       url: '/blog/'
     - title: 'Pages'
       submenu:
@@ -29,14 +33,16 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: Jason Hill
-  author__bio: Hi, I'm Jason – Graphic Designer. I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.
+  author__name: George Papadopoulos
+  author__bio: Hi, I'm George – I am a PhD candidate at Imperial College London, in the Mathematics and Bioengineering department. 
+    My research area focuses on applying ML and AI models to healthcare challenges. 
   author__avatar: '/images/headshot.jpg'
 
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com/Papad_george"}
-- {icon: "ion-logo-github", link: "https://github.com"}
-- {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+- {icon: "ion-logo-github", link: "https://github.com/DolanDack"}
+- {icon: "ion-md-school", link: "https://scholar.google.com/"}
+- {icon: "ion-md-information", link: "https://www.imperial.ac.uk/people/g.papadopoulos22"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -47,9 +53,11 @@ social:
 hero:
   enable: true
   hero__title: Hey everyone, I’m George Papadopoulos
-  hero__description: I'm a PhD candidate at Imperial College London, in the Mathematics and Bioengineering department. I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.
-  hero__image: "/images/01-1.jpg"
-
+  hero__description: I am a PhD candidate at Imperial College London, at the Mathematics and Bioengineering department. 
+    My research area focuses on applying ML and AI models to solve healthcare challenges. 
+    If you are interested in any of my projects, please do get in touch. 
+    Also, do not forget to subscribe to my podcast and email lists :)
+  hero__image: "/images/GaussianProcess2.gif"
 
 #-------------------------------
 # Logos Settings
@@ -96,8 +104,8 @@ mailchimp:
 # Work Settings
 work:
   enable: true
-  work__title: Work
-  work__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+  work__title: Projects
+  work__description: A selection of my latest works, projects, articles, and podcasts.
 
 
 #-------------------------------
@@ -176,13 +184,13 @@ blog__settings:
 
 #-------------------------------
 # Footer Settings
-footer__background__image: "/images/bg.jpg"
+footer__background__image: "/images/data_floating.png"
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your form_id
-  description: Akio comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  email: g.papadopoulos22@imperial.ac.uk # Add your form_id
+  description: Please send all the communication and requests to the official Imperial College email. # Add a description of your form
 
 # NOTE
 # Akio theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
