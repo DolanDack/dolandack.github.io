@@ -3,21 +3,25 @@ layout: page
 title: Elements
 permalink: /elements/
 ---
-
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
 
-***
+---
 
 ## Headings by default:
 
 # H1 Default styles for headings
+
 ## H2 Default styles for headings
+
 ### H3 Default styles for headings
+
 #### H4 Default styles for headings
+
 ##### H5 Default styles for headings
+
 ###### H6 Default styles for headings
 
-***
+---
 
 ## Lists
 
@@ -29,7 +33,7 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 4. Jean shorts shaman listicle pickled portland.
 5. Salvia mumblecore brunch iPhone migas.
 
-***
+---
 
 ### Unordered list example:
 
@@ -39,7 +43,7 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 * Mlkshk polaroid sriracha brooklyn.
 * Pug you probably haven't heard of them air plant man bun.
 
-***
+---
 
 ## Table
 
@@ -55,7 +59,7 @@ A paragraph looks like this — Globally incubate standards compliant channels b
   </table>
 </div>
 
-***
+---
 
 ## Quotes
 
@@ -63,11 +67,9 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 >
-> <cite>– George Bernard Shaw</cite>
+> `<cite>`– George Bernard Shaw`</cite>`
 
-***
-
-
+---
 
 ## Syntax Highlighter
 
@@ -105,7 +107,7 @@ li {
   });
 {% endhighlight %}
 
-***
+---
 
 ## Images
 
@@ -127,14 +129,28 @@ li {
 ![Sea]({{site.baseurl}}/images/post-7.jpg)
 *Photo by [Daniel Monteiro](https://unsplash.com/photos/iK2MdOKSmj8) on [Unsplash](https://unsplash.com/)*
 
-***
+---
 
 ## Youtube Embed
 
 <p><iframe src="https://www.youtube.com/embed/NFTstL115nY" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
-***
+---
+
+
+
+```
+<a href="https://www.athensvoice.gr/life/tehnologia-epistimi/786180/tehniti-noimosuni-mia-epanastasi-stin-ugeia/?fbclid=IwAR0RBGcJ-_1Ysjb3NWXajPh7QlYiWO-CdCztlQRjB2dIBTGXxN9ss1j-Pj4"><img align="left" src="/images/AV_855_25_01_2023.png" alt="Athens Voice 855 January 2023"></a>
+```
 
 ## Vimeo Embed
 
 <p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+
+
+<p><a href="https://www.athensvoice.gr/life/tehnologia-epistimi/786180/tehniti-noimosuni-mia-epanastasi-stin-ugeia/?fbclid=IwAR0RBGcJ-_1Ysjb3NWXajPh7QlYiWO-CdCztlQRjB2dIBTGXxN9ss1j-Pj4"><img align="left" src="/images/AV_855_25_01_2023.png" width="20%" height="20%" alt="Athens Voice 855 January 2023"></a></p>
+
+
+**Athens Voice - Artificial Intelligence: A Revolution in Healthcare (in Greek)**
+
+An article I wrote in 2023 for the Greek magazine Athens Voice. We discussed what AI can bring to healthcare and what recent innovations have been made.
