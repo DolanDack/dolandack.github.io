@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<style>
+  .article-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    margin-bottom: 40px; /* Space between articles */
+  }
+
+  .article-image {
+    flex: 0 0 auto; /* Flexible width for the image */
+    width: 200px; /* Adjust width as needed */
+    margin-right: 20px; /* Space between image and text */
+  }
+
+  .article-content {
+    flex: 1; /* Text takes up remaining space */
+  }
+</style>
+
+<div class="container">
+  <!-- Your existing code for page head and image -->
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+  <article class="page">
+    {{ content }}
+  </article>
+</div>
+<!-- end page -->
